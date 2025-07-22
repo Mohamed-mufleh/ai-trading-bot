@@ -29,6 +29,16 @@ A deep learning–powered crypto trading bot using a hybrid 3D CNN + GRU model t
 
 ---
 
+## 🧠 Why 3D CNN + GRU?
+
+- **3D Convolutional Neural Networks (3D CNNs)** are excellent at capturing *spatio-temporal features* — that is, patterns across both indicators (features) and time.
+- **GRU (Gated Recurrent Units)** are powerful for *sequence modeling*, allowing the model to remember trends and time dependencies.
+- The combination enables the system to recognize complex multi-dimensional market patterns and short-term trends — essential for high-frequency crypto trading.
+
+This hybrid model aims to improve predictive performance over traditional 2D CNNs or LSTMs used alone.
+
+---
+
 ## ⚙️ How It Works
 
 The pipeline consists of five core Python scripts, each responsible for a key step in the trading workflow:
@@ -49,3 +59,8 @@ The pipeline consists of five core Python scripts, each responsible for a key st
    Uses the trained model to make predictions in real-time and places trades via the Binance API based on the current market conditions.
 
 ---
+
+## Install Dependencies
+**Install all required libraries with:**
+pip install requests websocket-client pandas numpy ta torch scikit-learn python-binance python-dotenv
+
