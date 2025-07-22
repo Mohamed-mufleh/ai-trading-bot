@@ -62,5 +62,5 @@ The pipeline consists of five core Python scripts, each responsible for a key st
 
 ## Install Dependencies
 **Install all required libraries with:**
-pip install requests websocket-client pandas numpy ta torch scikit-learn python-binance python-dotenv
+`pip install requests websocket-client pandas numpy ta torch scikit-learn python-binance python-dotenv`
 
